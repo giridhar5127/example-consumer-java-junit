@@ -13,7 +13,6 @@ class Product {
   private String version;
   private String description;
   
-
   Product() {}
 
   Product(String id, String name, String type, String version, String description) {
