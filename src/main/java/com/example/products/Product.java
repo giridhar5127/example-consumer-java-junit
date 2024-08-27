@@ -14,10 +14,11 @@ class Product {
   private String description;
   private String price;
   private String field;
+  private String field1;
   
   Product() {}
 
-  Product(String id, String name, String type, String version, String description, String price, String field) {
+  Product(String id, String name, String type, String version, String description, String price, String field, String field1) {
     this.id = id;
     this.name = name;
     this.type = type;
@@ -25,5 +26,6 @@ class Product {
     this.description = description;
     this.price = price;
     this.field = field;
+    this.field1 = field1;
   }
 }
