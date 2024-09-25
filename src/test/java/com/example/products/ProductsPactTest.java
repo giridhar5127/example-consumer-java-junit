@@ -24,6 +24,7 @@ public class ProductsPactTest {
   @Pact(consumer="pactflow-example-consumer-java-junit")
   public RequestResponsePact getProduct(PactDslWithProvider builder) {
 
+
     PactDslJsonBody body = new PactDslJsonBody();
     body.stringType("name", "product name");
     body.stringType("type", "product series");
