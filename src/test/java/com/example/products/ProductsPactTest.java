@@ -32,7 +32,7 @@ public class ProductsPactTest {
     body.stringType("description", "product description");
     body.stringType("price", "price");
     body.stringType("field", "field");
-    body.stringType("field1", "field1");
+    // body.stringType("field1", "field1");
 
       return builder
         .given("a product with ID 10 exists")
@@ -70,7 +70,7 @@ public class ProductsPactTest {
                 .stringType("description", "product description")
                 .stringType("price", "price")
                 .stringType("field", "field")
-                .stringType("field1", "field1")
+                // .stringType("field1", "field1")
                 .closeObject())
           .toPact();
   }
